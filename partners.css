@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar1{
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 70px;
+    margin-top: 5px;
+}
+.nav1 li{
+    margin-left: 40px;
+    color: gray;
+    list-style: none;
+
+}
+.nav1 li:hover{
+   color: black;
+}
+.navbar2{
+    width: 100%;
+    height: 70px; 
+}
+.nav2{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.nav2 li{
+    color: rgb(110, 110, 254);
+    margin-top: 14px;
+    list-style: none;
+    margin-left: 40px;
+}
+.nav2 li:hover{
+    font-weight: bold;
+    color: blue;
+}
+.images{
+   
+    margin-right: 90px;
+    margin-top: 15px;
+}
+.nav2 li i{
+    font-size: 25px;
+    padding-left: 40px;
+}
+.navbar3{
+    width: 100%;
+    height: 32px;
+   background-color: whitesmoke;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 80px;
+}
+.nav3 li{
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.foon1{
+    width: 100%;
+    height: 490px;
+    background: url("https://www.nokia.com/themes/custom/onenokia_reskin/img/gradients/pink-purple-d.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.foon1__text{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+}
+.foon1__foto{
+    width: 49%;
+    height: 490px;
+    margin-left: 340px;
+}
+.foon1__text p{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+h6{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.foon2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+.foon2__text{
+    width: 58%;
+    height: 200px;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+.foon2__text h6{
+    width: 95%;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.foon2__foto{
+    width: 400px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background: url("https://www.nokia.com/sites/default/files/styles/c1_reference_33/public/2023-02/resrcid30460_gettyimages-532579763-low.jpg.webp") no-repeat center/cover;
+    margin-bottom: 80px;
+}
+.foon__name p{
+    font-size: 50px;
+    margin-left: 60px;
+}
+.foon3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.foon__card1 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+.foon__card2 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.foon__card3 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.foon3__text{
+    width: 450px;
+    height: 140px;
+    margin-top: 10px;
+    
+}
+.sarlavha{
+    font-size: 30px;
+}
+.sarlavha i{
+    font-size: 30px;
+    color: dodgerblue;
+    margin-left: 10px;
+}
+.texta{
+    padding-top: 10px;
+   color: rgb(84, 83, 83);
+}
+.big__text{
+    width: 60%;
+    height: 200px;
+    font-size: 50px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.foon4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    
+}
+.foon__main1 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+.foon__main2 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.foon__main3 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.foon4__text{
+    width: 450px;
+    height: 60px;
+    margin-top: 10px;
+   
+}
+.texta1{
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+}
+
+.texta1 i{
+    color: dodgerblue;
+    margin-left: 10px;
+}
+.foon5{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.foon__main4 img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+.foon__main5 img{
+    width: 450px;
+    height: 250px;
+    
+}
+.foon__main6 img{
+    width: 450px;
+    height: 250px;
+}
+.foon5__text{
+    width: 450px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.foon6{
+    width: 100%;
+    height: 300px;
+    background: url("https://www.nokia.com/themes/custom/onenokia_reskin/img/gradients/blue-green-d.jpg") no-repeat center/cover;
+}
+h1{
+    width: 700px;
+    height: 80px;
+    color: white;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.foon__over{
+    width: 80%;
+    height: 420px;
+    margin-top: 130px;
+    margin-left: 200px;
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+   
+}
+.over img{
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+}
+.foon6__text{
+    width: 370px;
+    height: auto;
+}
+.foon6__text p{
+    padding-top: 15px;
+    color: rgb(93, 92, 92);
+    font-size: 25px;
+    line-height: 35px;
+}
+.foon6__text i{
+    color: dodgerblue;
+    margin-left: 10px;
+}
+.foon7{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 360px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.foon7 p{
+    font-size: 40px;
+    margin-right: 680px;
+    margin-top: 30px;
+    
+}
+.foon7__foto img{
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.foon7__text{
+    width: 370px;
+    height: 50px;
+    margin-top: 15px;
+}
+.foon7__text a{
+   
+    font-size: 23px;
+}
+.foon7__text i{
+    color: dodgerblue;
+    margin-left: 4px;
+}
+.let{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background: url("https://www.nokia.com/themes/custom/onenokia_reskin/img/gradients/teal-blue-d.jpg") no-repeat center/cover;
+   text-align: center;
+  
+   
+}
+.let h3{
+    width: 330px;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.let p{
+    width: 530px;
+    height: 40px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+.batton{
+    width: 220px;
+    height: 60px;
+    background-color: rgb(9, 104, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.foon__futer{
+    width: 100%;
+    height: 600px;
+   
+    
+}
+.foon__futer1{
+    width: 100px;
+    height: 180px;
+    padding-top: 70px;
+    padding-left: 65px;
+}
+hr{
+    width: 90%;
+    margin-left: 75px;
+}
+.foon__futer2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 200px;
+    
+}
+.content li{
+    line-height: 30px;
+    list-style: none;
+    color: rgb(49, 46, 46);
+}
+.foon__futer3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+   
+}
+.content1{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+   
+  
+}
+.content2{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+   margin-left: 50px;
+    
+}
+
+.battons{
+    width: 300px;
+    height: 60px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: rgb(21, 125, 228);
+    background-color: white;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 11px;
+    font-size: 20px;
+}
+.youtube{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 9px;
+    font-size: 20px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 13px;
+    font-size: 20px;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 11px;
+    font-size: 20px;
+}
+.foon__futer4{
+    width: 100%;
+    height: 120px;
+   
+}
+.content3{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 70px;
+    color: rgb(100, 99, 99);
+
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
